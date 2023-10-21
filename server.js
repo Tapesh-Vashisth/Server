@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 })
 
 app.get('/check', (req, res) => {
-    return res.status(200);
+    return res.status(200).send();
 })
 
 app.listen(3000, () => {
